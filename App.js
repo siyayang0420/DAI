@@ -15,12 +15,16 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
+import Top from './comps/Top';
 
 
 function App(){
   return (
-    <View></View>
+    <View>
+      <Top />
+    </View>
+
+
   );
 };
 
