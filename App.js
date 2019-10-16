@@ -15,21 +15,26 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
 import Mid from './comps/Mid'
 import TopSiya from './comps/Top-Siya'
 import Bot from './comps/Bot'
+import Top from './comps/Top';
 
 
 function App(){
   return (
     <View>
 
+
       <TopSiya />
+      <Top />
       <Mid />
       <Bot />
+      
     </View>
-  );
+
+
+  )
 };
 
 export default App;
