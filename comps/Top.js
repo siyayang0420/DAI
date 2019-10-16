@@ -3,8 +3,7 @@ import {
     StyleSheet,
     View,
     Text,
-    Switch,
-    ScrollView
+    Switch
   } from 'react-native';
 
   function Top(){
