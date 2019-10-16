@@ -16,11 +16,19 @@ import {
   StatusBar,
 } from 'react-native';
 
+import Mid from './comps/Mid'
+import TopSiya from './comps/Top-Siya'
+import Bot from './comps/Bot'
 
 
 function App(){
   return (
-    <View></View>
+    <View>
+
+      <TopSiya />
+      <Mid />
+      <Bot />
+    </View>
   );
 };
 
