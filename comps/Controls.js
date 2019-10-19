@@ -3,6 +3,7 @@ import {View, Text,TextInput, Button} from 'react-native'
 
 function Controls(props){
     const [value, onChangeText] = useState('yellow');
+    const [page, setPage] = useState(1);
     return(
         <View style={{alignItems:'center', justifyContent: 'center'}}>
             < TextInput 
