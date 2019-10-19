@@ -19,6 +19,7 @@ import Mid from './comps/Mid'
 import TopSiya from './comps/Top-Siya'
 import Bot from './comps/Bot'
 import Top from './comps/Top';
+import Main from './comps/Main';
 
 
 function App(){
@@ -26,10 +27,7 @@ function App(){
     <View>
 
 
-      <TopSiya />
-      <Top />
-      <Mid />
-      <Bot />
+      <Main/>
       
     </View>
 
