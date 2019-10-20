@@ -6,6 +6,7 @@ import Bot from '../comps/Bot'
 import Top from '../comps/Top';
 import Controls from '../comps/Controls';
 import Mt from '../comps/Mt'
+import Menu from './Menu';
 
 
 
@@ -57,6 +58,7 @@ function Main(){
     if(page === 2){
         return(
             <View >
+                <Menu/>
                 <Mt/>
             </View>
         )
